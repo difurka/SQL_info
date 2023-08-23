@@ -1,0 +1,31 @@
+title,parenttask,maxxp
+C1_SimpleBashUtils,,200
+C2_s21_string+,C1_SimpleBashUtils,500
+C3_s21_math,C1_SimpleBashUtils,200
+C4_s21_decimal,C1_SimpleBashUtils,300
+C5_s21_matrix,C4_s21_decimal,200
+C6_SmartCalc_v1.0,C5_s21_matrix,500
+C7_3DViewer_v1.0,C6_SmartCalc_v1.0,750
+CPP1_s21_matrix+,C7_3DViewer_v1.0,200
+CPP2_s21_containers,CPP1_s21_matrix+,500
+CPP3_SmartCalc_v2.0,CPP2_s21_containers,200
+CPP4_3DViewer_v2.0,CPP3_SmartCalc_v2.0,300
+CPP5_3DViewer_v2.1,CPP4_3DViewer_v2.0,200
+CPP6_3DViewer_v2.2,CPP5_3DViewer_v2.1,500
+CPP7_MLP,CPP4_3DViewer_v2.0,750
+CPP8_MonitoringSystem,CPP4_3DViewer_v2.0,750
+CPP9_PhotoLab_v1.0,CPP4_3DViewer_v2.0,750
+DO1_Linux,C1_SimpleBashUtils,200
+DO2_Linux_Network,DO1_Linux,500
+DO3_LinuxMonitoring_v1.0,DO2_Linux_Network,200
+DO4_LinuxMonitoring_v2.0,DO3_LinuxMonitoring_v1.0,300
+DO5_SimpleDocker,DO3_LinuxMonitoring_v1.0,300
+DO6_CICD,DO5_SimpleDocker,500
+A1_Maze,CPP4_3DViewer_v2.0,300
+A2_SimpleNavigator_v1.0,A1_Maze,350
+A3_Parallels,A2_SimpleNavigator_v1.0,450
+A4_Crypto,A2_SimpleNavigator_v1.0,300
+A5_s21_memory,A2_SimpleNavigator_v1.0,350
+A6_Transactions,A2_SimpleNavigator_v1.0,500
+A7_DNA Analyzer,A2_SimpleNavigator_v1.0,450
+A8_Algorithmic trading,A2_SimpleNavigator_v1.0,800
